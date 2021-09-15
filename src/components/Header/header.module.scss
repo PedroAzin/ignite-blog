@@ -1,1 +1,18 @@
-// TODO
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    height: 10.5rem;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 2rem;
+
+    a {
+        transition: filter 0.2s;
+
+        :hover {
+            filter: brightness(0.8);
+        }
+    }
+}

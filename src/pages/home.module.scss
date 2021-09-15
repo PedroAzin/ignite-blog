@@ -1,1 +1,54 @@
-// TODO
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    
+    padding: 0 2rem;
+
+    li {
+        list-style: none;
+        display: block;
+
+        + li {
+            margin-top: 3rem;
+        }
+
+        div {
+            h1 {
+                font-size: 2.8rem;
+                line-height: 3.4rem;
+                color: var(--gray100);
+            }
+            p {
+                margin-top: 0.8rem;
+                font-size: 1.8rem;
+                line-height: 2.2rem;
+                color: var(--gray200)
+            }
+    
+        }
+
+        a {
+            transition: filter 0.2;
+            :hover {
+                filter: brightness(0.8);
+            }
+        }
+    }
+
+
+    button {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: var(--pink500);
+        background: transparent;
+        border: 0;
+
+        margin: 6.4rem 0 8.0rem 0;
+
+        transition: filter 0.2s;
+
+        &:hover {
+            filter: brightness(0.8);
+        }
+    }
+}

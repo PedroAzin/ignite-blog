@@ -1,0 +1,26 @@
+.info {
+    margin-top: 2.4rem;
+    color: var(--gray300);
+
+    display: flex;
+
+    font-size: 1.4rem;
+
+    div {
+        display: flex;
+        align-items: center;
+
+        + * {
+            margin-left: 0.8rem;
+        }
+    }
+
+    svg {
+        height: 2rem;
+        width: 2rem;
+
+        + * {
+            margin-left: 0.8rem;
+        }
+    }
+}
